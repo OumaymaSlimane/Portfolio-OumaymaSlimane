@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails - Stage Arc Technologie</title>
+    <link rel="stylesheet" href="details-arc-technology.css"> <!-- Relier un fichier CSS commun -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="details-arc-technologie.html">Arc Technologie</a></li>
+                <li><a href="details-drax.html">Dräxlmaier</a></li>
+                <li><a href="ost.html">Open Startup Tunisia</a></li>
+                <li><a href="Ainight.html">AI Night Challenge</a></li>
+                <li><a href="nuitinfo.html">Nuit d'Info</a></li>
+                <li><a href="arsi.html">Formation ARCII</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Section de la photo et du contenu -->
+    <section class="intro-section">
+        <img src="https://www.arctechno.net/cropped-354.png" alt="Développeuse en Business Intelligence" class="intro-image">
+        <div class="intro-block">
+            <!-- Définition de ARC Technologies -->
+            <div style="margin-bottom: 30px; padding: 15px; background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h2 style="color: #4a90e2; font-size: 20px;">ARC Technologies</h2>
+                <p style="color: #333; font-size: 25px; line-height: 1.5;">
+                    ARC Technologies est une entreprise française spécialisée dans les solutions électromécaniques avancées, avec un accent particulier sur les produits basse et moyenne tension. Elle est implantée à Langrolay-sur-Rance, en Bretagne, France.
+                </p>
+            </div>
+            
+            <p style="color: #800000; font-weight: bold;">
+                <strong>Rôle :</strong> Stagiaire Développeuse en Business Intelligence
+            </p>
+            <h1>Analyser et visualiser les données des dépenses des clients des différentes agences</h1>
+    
+            
+            <ul>
+                <li><strong>Collecter des données (SQL Server)</strong></li>
+                <p><strong>Logiciel :</strong> Microsoft SQL Server (T-SQL pour interroger et extraire les données).</p>
+                <br> <!-- Ligne vide -->
+            
+                <li><strong>Transformer des données (ETL - Extraction, Transformation, Chargement)</strong></li>
+                <p><strong>Logiciel :</strong> SQL Server Integration Services (SSIS).</p>
+                <br> <!-- Ligne vide -->
+            
+                <li><strong>Stocker des données</strong></li>
+                <p><strong>Logiciel :</strong> SQL Server (Tables, procédures stockées, vues).</p>
+                <br> <!-- Ligne vide -->
+            
+                <li><strong>Créer des rapports et des tableaux de bord pour BI</strong></li>
+                <p><strong>Logiciel :</strong> Power BI (avec Power Query et DAX pour les visualisations).</p>
+                <br> <!-- Ligne vide -->
+            
+                <li><strong>Diffuser des informations</strong></li>
+                <p><strong>Logiciel :</strong> Power BI (publication de rapports sur le service Power BI ou export en format PDF/Excel).</p>
+                <br> <!-- Ligne vide -->
+            </ul>
+    
+            <!-- Ajouter le bouton ici -->
+            <button class="certificate-btn" onclick="showCertificate()">Certificat</button>
+        </div>
+    </section>
+    
+    
+    <section class="logos-section">
+        <h2>Logiciels Utilisés</h2>
+
+        <div class="logos-container">
+            <img src="https://logonoid.com/images/sql-server-logo.png" alt="SQL Server" title="SQL Server">
+            <img src="https://marketplace.topdesk.com/wp-content/uploads/2018/02/powerbi-logo.png" alt="Power BI" title="Power BI">
+            <img src="https://d2jdgazzki9vjm.cloudfront.net/tutorial/ssis/images/ssis-tutorial.jpg" alt="SQL Server SSIS" title="SQL Server SSIS" class="image">
+        </div>
+    </section>
+
+    <!-- Fenêtre modale pour afficher le certificat -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <!-- Bouton pour fermer -->
+            <span class="close" onclick="closeCertificate()">&times;</span>
+            <!-- PDF intégré -->
+            <iframe src="assets/images/ARC.pdf" frameborder="0" class="certificate-iframe"></iframe>
+        </div>
+    </div>
+    
+    <script>
+        function showCertificate() {
+            document.getElementById("certificateModal").style.display = "flex";
+        }
+
+        function closeCertificate() {
+            document.getElementById("certificateModal").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

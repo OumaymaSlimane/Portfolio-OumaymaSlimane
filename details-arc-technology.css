@@ -1,0 +1,256 @@
+/* Style de la navbar */
+.navbar {
+    background-color: #322d60; /* Couleur de fond */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 20px 20px;
+
+}
+
+/* Style de la liste */
+.navbar ul {
+    list-style-type: none; /* Supprimer les puces */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+/* Style des liens */
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 20px; /* Espacement interne du cadre */
+    border: 2px solid white; /* Bordure blanche autour du lien */
+    border-radius: 8px; /* Coins arrondis */
+    transition: all 0.3s ease;
+    background-color: transparent; /* Fond transparent par défaut */
+}
+
+/* Hover effect */
+.navbar ul li a:hover {
+    background-color: #ffffff; /* Fond jaune au survol */
+    color: #000000; /* Couleur de texte bleue au survol */
+    border-color: #f8f7f2; /* Bordure jaune au survol */
+}
+
+/* Responsive - petit écran */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+}
+/* Style pour l'image et le contenu */
+/* Style pour l'image et le contenu */
+/* Style pour l'image et le contenu */
+/* Section d'introduction */
+.intro-section {
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Fond gris clair */
+}
+
+/* Image */
+.intro-image {
+    width: 100%;
+    max-width: 300px; /* Taille réduite de l'image */
+    border-radius: 10px; /* Coins arrondis */
+    margin-bottom: 20px; /* Espacement entre l'image et le texte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre sous l'image */
+}
+
+/* Bloc contenant le texte */
+.intro-block {
+    background-color: #ffffff; /* Fond blanc pour le texte */
+    padding: 20px;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    max-width: 1100px; /* Largeur maximale du bloc */
+    margin: 0 auto; /* Centrer le bloc */
+    text-align: left; /* Alignement à gauche */
+}
+
+/* Titre principal */
+.intro-block h1 {
+    font-size: 25px;
+    color: #800000; /* Couleur bleu vif pour le titre */
+    margin-bottom: 10px;
+}
+
+/* Paragraphe */
+.intro-block p {
+    font-size: 25px;
+    color: #090000; /* Couleur sombre pour le texte */
+    margin-bottom: 10px;
+}
+
+/* Liste */
+.intro-block ul {
+    list-style-type: disc; /* Puces pour la liste */
+    margin-left: 20px; /* Espacement à gauche */
+    color: #0b0202; /* Couleur des textes de liste */
+    font-size: 23px;
+
+    
+
+
+}
+
+.intro-block ul li {
+    margin-bottom: 25px; /* Espacement entre les éléments de la liste */
+}
+/* Section des logos */
+.logos-section {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fffcfc; /* Couleur de fond légèrement différente */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+
+}
+
+
+.logos-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px; /* Espacement entre les logos */
+    flex-wrap: wrap; /* Les logos passent à la ligne sur petits écrans */
+}
+
+.logos-container img {
+    width: 200px; /* Taille uniforme des logos */
+    height: auto;
+    transition: transform 0.3s ease; /* Animation au survol */
+}
+
+.logos-container img:hover {
+    transform: scale(1.1); /* Agrandissement léger au survol */
+}
+.logos-section h2 {
+    font-size: 24px;
+    color: #022e5d; /* Titre bleu */
+    margin-bottom: 20px;
+}
+/* Style pour le bouton Certificat */
+/* Style pour le bouton Certificat */
+.certificate-btn {
+    background-color: #800000; /* Rouge bordeaux */
+    color: white;
+    padding: 12px 25px; /* Augmenter légèrement l'espace interne */
+    border: none;
+    border-radius: 8px; /* Coins légèrement plus arrondis */
+    font-size: 18px; /* Augmenter légèrement la taille de la police */
+    cursor: pointer;
+    margin-top: 20px; /* Espacement au-dessus du bouton */
+    display: block; /* Permet de centrer avec margin auto */
+    margin-left: auto; /* Centre horizontalement */
+    margin-right: auto;
+    transition: background-color 0.3s ease;
+}
+
+.certificate-btn:hover {
+    background-color: #a52a2a; /* Rouge plus clair au survol */
+}
+
+
+/* Style de la modal */
+/* Style de la modal */
+/* Style de la modal */
+.modal {
+    display: none; /* Caché par défaut */
+    position: fixed;
+    z-index: 1000; /* Modale au-dessus du contenu principal */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Fond sombre transparent */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+/* Contenu de la modal */
+.modal-content {
+    position: relative;
+    width: 80%; /* Largeur de la modal */
+    max-width: 800px; /* Largeur maximale */
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre */
+    overflow: hidden; /* S'assurer que l'iframe reste à l'intérieur */
+}
+
+/* Bouton pour fermer */
+.modal-content .close {
+    position: absolute; /* Position absolue dans la modal */
+    top: 10px; /* Position en haut */
+    right: 20px; /* Position à droite */
+    font-size: 28px; /* Taille du symbole */
+    font-weight: bold;
+    color: white; /* Couleur du bouton */
+    cursor: pointer; /* Curseur pointer */
+    background: #800000; /* Fond rouge bordeaux */
+    border-radius: 50%; /* Forme circulaire */
+    width: 40px;
+    height: 40px;
+    line-height: 40px; /* Centrer le symbole */
+    text-align: center;
+    z-index: 1001; /* Toujours au-dessus de l'iframe */
+    border: none;
+}
+
+.modal-content .close:hover {
+    background: #a52a2a; /* Rouge plus clair au survol */
+}
+
+/* Style du PDF */
+.certificate-iframe {
+    width: 100%;
+    height: 500px; /* Ajustez la hauteur selon vos besoins */
+    border: none;
+    z-index: 1000; /* Derrière le bouton */
+}
+
+.modal {
+    display: none; /* Caché par défaut */
+    position: fixed;
+    z-index: 1000; /* Modale au-dessus du contenu principal */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Fond sombre transparent */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.modal-content {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

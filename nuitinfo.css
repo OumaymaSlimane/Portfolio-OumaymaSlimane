@@ -1,0 +1,122 @@
+/* Section principale */
+.content-section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1000px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Titre principal */
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h1 {
+    font-size: 28px;
+    color: #0044cc;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Blocs de contenu */
+.block-container {
+    background-color: #f7f7f7; /* Fond gris clair */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+.block-container h2 {
+    font-size: 24px;
+    color: #0044cc; /* Bleu vif */
+    margin-bottom: 10px;
+}
+
+.block-container p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+/* Liens dans la navbar */
+.navbar {
+    background-color: #322d60; /* Couleur de fond */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 20px 20px;
+
+}
+
+/* Style de la liste */
+.navbar ul {
+    list-style-type: none; /* Supprimer les puces */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+/* Style des liens */
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 20px; /* Espacement interne du cadre */
+    border: 2px solid white; /* Bordure blanche autour du lien */
+    border-radius: 8px; /* Coins arrondis */
+    transition: all 0.3s ease;
+    background-color: transparent; /* Fond transparent par défaut */
+}
+
+/* Hover effect */
+.navbar ul li a:hover {
+    background-color: #ffffff; /* Fond jaune au survol */
+    color: #000000; /* Couleur de texte bleue au survol */
+    border-color: #f8f7f2; /* Bordure jaune au survol */
+}
+
+/* Responsive - petit écran */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+}
+.images-block {
+    display: flex; /* Active Flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100%; /* Ajustez la hauteur si nécessaire */
+    margin: 20px 0; /* Espace au-dessus et en dessous */
+}
+
+.images-block img.Image2 {
+    max-width: none;
+    width: 700px; /* Largeur de l'image */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation au survol */
+}
+
+
+
+
+

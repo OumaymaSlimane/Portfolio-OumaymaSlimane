@@ -1,0 +1,46 @@
+[
+    {
+      "name": "Application de bureau avec Java Swing",
+      "desc": "Développement d'une application desktop pour la gestion des rendez-vous des patients d'un docteur. Les fonctionnalités incluent : une interface permettant de double-cliquer sur un calendrier pour afficher un formulaire où les coordonnées des patients peuvent être saisies. Un bouton est disponible dans la liste des rendez-vous, permettant d'envoyer directement un email au patient pour lui rappeler son rendez-vous en un seul clic, sans avoir besoin de saisir les coordonnées manuellement. L'application propose une interface de gestion des tâches (importantes, non importantes, en cours, terminées) ainsi qu'une autre interface pour gérer les données et les dossiers des patients.",
+      "image": "aswing",
+      "links": {
+        "code": "https://github.com/OumaymaSlimane/JAVA-SWING-Application"
+      }
+    },
+    {
+      "name": "Traitement automatique du langage naturel ",
+      "desc": "Travailler sur l’indexation et le traitement du texte avec Python/Prétraitement du texte incluant la segmentation, la suppression des mots vides, et la normalisation (lemmatisation ou stemming)./Utilisation de techniques d'indexation pour organiser les données textuelles et faciliter les recherches./Mise en œuvre de techniques NLP avancées pour améliorer la précision et la pertinence des résultats./Technologies et Méthodes : Travail avec des bibliothèques et outils NLP (comme NLTK ou spaCy) et intégration d'algorithmes de machine learning pour optimiser l'indexation.",
+      "image": "NLP",
+      "links": {
+        "code": "https://github.com/OumaymaSlimane/NLP-Natural-Language-Processing-"
+      }
+    },
+    {
+      "name": "Développement web",
+      "desc": "Développer une Application web de gestion des clients d’un hotel(suppression/ajout/modification)/travailler sur : netbeans-mysql-html-css ",
+      "image": "hotel",
+      "links": {
+        "code": "https://github.com/OumaymaSlimane/Hotel-management-web-application"
+      }
+    },
+    {
+      "name": "Dévelopement Web(Angular-SpringBoot-MySql)",
+      "desc": "Développer une application qui gère la vie de l'utilisateur, avec une interface pour la gestion financière incluant un diagramme en secteurs (pie chart). Une interface pour la gestion des tâches quotidiennes avec des statistiques de performance pour chaque mois et pour l'année. Une autre interface dédiée au divertissement, comprenant des quiz sur la musique et les noms de films. Enfin, une autre page inclut un chronomètre.",
+      "image": "logo",
+      "links": {
+        "code": "https://github.com/OumaymaSlimane/Application-Web-lifegoals-"
+      }
+    },
+    {
+      "name": "Système de Détection et d'Extraction de Données de Documents par Caméra(en cours)",
+      "desc": "En Python/Conception d'un système personnel de détection et d'extraction de données à partir de documents capturés par caméra, utilisant des techniques d'OCR et d'intelligence artificielle pour automatiser la reconnaissance et l'extraction des informations pertinentes.-Ce projet en deep learning vise à améliorer l'efficacité du traitement de documents visuels.",
+      "image": "ai",
+      "links": {
+        "code": "https://github.com/OumaymaSlimane/Syst-me-de-D-tection-et-d-Extraction-de-Donn-es-de-Documents-par-Cam-ra"
+      }
+    }
+
+
+
+    
+  ]
