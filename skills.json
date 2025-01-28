@@ -91,5 +91,8 @@
         "name": "Windows",
         "icon": "https://cdn.pixabay.com/photo/2018/05/08/21/29/windows-3384024_1280.png"
     },
-        
+    {
+        "name": "SQLSERVER",
+        "icon": "https://upload.wikimedia.org/wikipedia/it/2/23/Sql_server_logo.png"
+    },    
 ]
