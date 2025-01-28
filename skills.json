@@ -86,5 +86,10 @@
     {
         "name": "Linux",
         "icon": "https://e7.pngegg.com/pngimages/342/131/png-clipart-penguin-tux-design-logo-linux-penguin-animals-logo.png"
-    }
+    },
+    {
+        "name": "Windows",
+        "icon": "https://cdn.pixabay.com/photo/2018/05/08/21/29/windows-3384024_1280.png"
+    },
+        
 ]
