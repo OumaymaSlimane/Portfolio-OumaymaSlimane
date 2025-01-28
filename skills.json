@@ -8,16 +8,36 @@
         "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8i4zPog-0j0JR_yZglxPhTPZXxN2iMTQ3Dw&s"
     },
     {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+    {
+        "name": "PHP",
+        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+    },
+    {
         "name": "UML",
         "icon": "https://w1.pngwing.com/pngs/240/352/png-transparent-star-symbol-staruml-unified-modeling-language-uml-tool-diagram-computer-software-java-umlet-thumbnail.png"
     },
     {
-        "name": "Android",
-        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
-    },
-    {
         "name": "JIRA",
         "icon": "https://w7.pngwing.com/pngs/992/738/png-transparent-jira-hd-logo-thumbnail.png"
+    },
+    {
+        "name": "Android",
+        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
     },
     {
         "name": "Flutter",
@@ -28,36 +48,8 @@
         "icon": "https://logowik.com/content/uploads/images/latex6119.logowik.com.webp"
     },
     {
-        "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
-    },
-    {
-        "name": "NLP",
-        "icon": "https://thumbs.dreamstime.com/b/ai-nlp-technology-vector-icon-filled-flat-sign-mobile-concept-web-design-natural-language-processing-glyph-symbol-logo-311045790.jpg"
-    },
-    {
-        "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-    },
-    {
-        "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-    {
         "name": "Java",
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-    },
-    {
-        "name": "Kotlin",
-        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
-    },
-    {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
     },
     {
         "name": "Python",
@@ -76,12 +68,8 @@
         "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
     },
     {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    },
-    {
-        "name": "WordPress",
-        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+        "name": "SQLSERVER",
+        "icon": "https://upload.wikimedia.org/wikipedia/it/2/23/Sql_server_logo.png"
     },
     {
         "name": "Linux",
@@ -91,10 +79,7 @@
         "name": "Windows",
         "icon": "https://cdn.pixabay.com/photo/2018/05/08/21/29/windows-3384024_1280.png"
     },
-    {
-        "name": "SQLSERVER",
-        "icon": "https://upload.wikimedia.org/wikipedia/it/2/23/Sql_server_logo.png"
-    },
+    
     {
         "name": "Machine Learning",
         "icon": "https://img.favpng.com/19/14/9/machine-learning-artificial-intelligence-marketing-deep-learning-png-favpng-q3ET3xAwhjueuvBHc5ES0PK2g.jpg"
@@ -102,6 +87,13 @@
     {
         "name": "Deep Learning",
         "icon": "https://cdn-icons-png.flaticon.com/512/10321/10321651.png"
+    },
+    {
+        "name": "NLP",
+        "icon": "https://thumbs.dreamstime.com/b/ai-nlp-technology-vector-icon-filled-flat-sign-mobile-concept-web-design-natural-language-processing-glyph-symbol-logo-311045790.jpg"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     }
-    
 ]
