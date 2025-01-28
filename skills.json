@@ -95,11 +95,11 @@
         "name": "SQLSERVER",
         "icon": "https://upload.wikimedia.org/wikipedia/it/2/23/Sql_server_logo.png"
     },
-     {
+    {
         "name": "Machine Learning",
         "icon": "https://img.favpng.com/19/14/9/machine-learning-artificial-intelligence-marketing-deep-learning-png-favpng-q3ET3xAwhjueuvBHc5ES0PK2g.jpg"
     },
-       {
+    {
         "name": "Deep Learning",
         "icon": "https://cdn-icons-png.flaticon.com/512/10321/10321651.png"
     },
@@ -107,14 +107,13 @@
         "name": "CSS",
         "icon": "https://brandslogos.com/wp-content/uploads/images/large/css-logo.png"
     },
-     {
+    {
         "name": "HTML",
         "icon": "https://e7.pngegg.com/pngimages/913/851/png-clipart-responsive-web-design-html-world-wide-web-consortium-world-wide-web-angle-text.png"
     },
-     {
+    {
         "name": "Java Script",
         "icon": "https://static.vecteezy.com/system/resources/thumbnails/012/697/298/small_2x/3d-javascript-logo-design-free-png.png"
-    },
-    
+    }
     
 ]
