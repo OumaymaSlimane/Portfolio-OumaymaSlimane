@@ -82,5 +82,9 @@
     {
         "name": "WordPress",
         "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    },
+    {
+        "name": "Linux",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQyh-zB2dHv9xdoULi_xFlXoq3bHkJCPh8ug&s"
     }
 ]
